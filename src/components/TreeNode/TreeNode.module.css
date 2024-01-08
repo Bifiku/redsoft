@@ -1,0 +1,42 @@
+/* TreeNode.module.css */
+
+.node {
+    text-align: left;
+    list-style: outside;
+    cursor: pointer;
+}
+
+.childTree {
+    margin-left: 16px;
+    padding-left: 0;
+    border-left: 1px solid #ccc;
+}
+.blockTree{
+    display: flex;
+    gap: 50px;
+}
+.blockTreeNode {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.blockTreeNode:first-child::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 105%;
+    right: -25px;
+    background: linear-gradient(90deg, #F05D52 0%, #F7387B 100%);
+}
+
+.search {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search input {
+    width: 100%;
+}

@@ -1,0 +1,12 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    font-size: 48px;
+    margin-bottom: 50px;
+}
